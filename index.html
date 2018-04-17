@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portofolio</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<!-- <link href="https://fonts.googleapis.com/css?family=Dhurjati" rel="stylesheet"> -->
+
+<link href="https://fonts.googleapis.com/css?family=Bitter:400,700|Dhurjati" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Merriweather|Nanum+Myeongjo" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Exo+2|Rubik" rel="stylesheet">
+<script src="js/JQuery.js"></script>
+<body>
+
+
+<!-- menu  -->
+<div class="menu-atbiut">
+		<span id="tombol" class="gambarUN"><img src="gambar/back.png"></span >
+	<div id="manu-hiden">
+		<div><a href="#about" class="page">ABOUT</a></div>
+		<div><a href="#foto" class="page">FOTO</a></div>
+		<div><a href="#kontak" class="page">Contact</a></div>
+		
+	</div>
+</div>
+
+	<div class="clearfix">
+		<div class="col-12 nav"  >
+			<div class="col-12 menu" id="navbar2">
+				<span>
+					<img src="gambar/Menu.png" id="gambar" class="gambarUN">	
+				</span>
+				<span id="log">BAYU LALU</span>
+			</div> <!-- penutup nav di atas -->
+
+			<div class="col-12 menu2" id="saya" >
+				<span>
+					<img src="gambar/Menu.png" id="gambar" class="gambarUN">	
+				</span>
+				<span id="log">BAYU LALU</span>
+			</div> <!-- penutup nav di atas -->
+			
+			<div class="nav-conten">
+				
+					Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit, sed do
+				
+			</div>
+		</div>
+	</div>
+		
+	
+	<!-- section -->
+<section id="about"></section>
+<br><br>
+<h2>About </h2>
+	<div class="hr"></div>
+	<div class="clearfix">
+		<div class="col-12  kon-about">
+			<div class="wrapper">
+				<div class="clearfix">
+					<div class="col-3 col-push-2 col-m-6 clear-m-push col-xs-12 pp">
+						<img src="gambar/gambar.jpg" align="porto folio" class="">
+					</div>
+					<div class="col-7 col-m-6 col-xs-12 " id="ab-con">
+						<p class="Konten-pp">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<section id="foto"></section>
+<br>
+
+<div class="clearfix"> 
+	<div class="col-12 kon">
+		<h2>Foto</h2>
+		<div class="hr"></div>
+
+		<div class="wrapper">
+			<div class="clearfix foto-con">
+				<div class="col-4 col-m-12">
+					<img src="gambar/Photo/1.jpg" class="ga1" >
+				</div>
+				<div class="col-4 col-m-12">
+					<img src="gambar/Photo/2.jpg" class="ga2 ">
+				</div>
+				<div class="col-4 col-m-12">
+					<img src="gambar/Photo/3.jpg" class="ga3 ">
+				</div>
+				<div class="col-4 col-m-12">
+					<img src="gambar/Photo/4.jpg" class="ga4 ">
+				</div>
+				<div class="col-4 col-m-12">
+					<img src="gambar/Photo/5.jpg" class="ga5 ">
+				</div>
+				<div class="col-4 col-m-12">
+					<img src="gambar/Photo/6.jpg" class="ga6 ">
+				</div>
+
+			</div>
+		</div>
+		
+	</div>
+</div> <!-- akhir foto -->
+
+<section id="kontak"></section>
+<div class="clearfix ">
+
+	<div class="col-12 kon">
+		<h2>Contact</h2>
+		<div class="hr"></div>
+		<div class="wrapper">
+			<div class="clearfix form">
+				<div class="col-6 col-m-12">
+					<form class="form-A">
+						<input type="text" name="" placeholder="Name">
+						<input type="Email" name="" placeholder="Email">
+						<textarea></textarea>
+						<input type="submit" value="kirim" name="">
+					</form>
+				</div>
+				<div class="col-6 col-12" >
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126223.88713995593!2d116.34259684900452!3d-8.644240468896855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdb4a9e2e95b2d%3A0x65d5701f82660992!2sTerara%2C+Kabupaten+Lombok+Timur%2C+Nusa+Tenggara+Bar.!5e0!3m2!1sid!2sid!4v1517892262379" width="90%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-12"><h3>&copy;Bayu Lalu</h3></div>
+</div>
+
+
+<script type="text/javascript">
+		$(window).scroll(function(){
+	    	if ($(window).scrollTop() > 550) {
+	    		$('#saya').css({
+	    			'transition': 'display 10s',
+	    			'display':'block',
+
+	    		});
+	    		$('#navbar2').css({
+	    			'display':'none'
+	    		});
+	    	}else{
+	    		$('#saya').css({
+	    			'display':'none'
+	    		});
+	    		$('#navbar2').css({
+	    			'display':'block'
+	    		});
+	    	}
+	    });
+
+	    // s
+	    $('.gambarUN').click(function() {
+	    	$('.menu-atbiut').toggleClass('menu-open');
+	    });
+
+
+	    $('.page').click(function(){
+	      var tujn = $(this).attr('href');
+	      var elemenTujuan = $(tujn);
+
+	      $('html, body').animate({
+	        scrollTop: elemenTujuan.offset().top - 50
+	      },700,'swing');
+    });
+
+	    $(window).scroll(function() {
+	    	if ($(window).scrollTop() > 200) {
+	    		 $('.pp').addClass('Ani-fto');
+	    		 $('.Konten-pp').addClass('Ani-About');
+    		}
+	    	if($(window).scrollTop() > 600){
+	    		$('.ga1').addClass('g1');
+	    		$('.ga2').addClass('g2');
+	    		$('.ga3').addClass('g3');
+	    		$('.ga4').addClass('g4');
+	    		$('.ga5').addClass('g5');
+	    		$('.ga6').addClass('g6');
+	    	}
+
+	    	if($(window).scrollTop() > 1500){
+	    		$('.form-A').addClass('form-Ani');
+	    	}
+	    });
+	
+	
+</script>
+</body>
+</html>

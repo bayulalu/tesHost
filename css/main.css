@@ -1,0 +1,278 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+*,*:after,*:before{
+
+	box-sizing: border-box;
+	transition: all 0.6s;
+}
+
+.wrapper{
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+/* Sistem Grid */
+
+.col-12,.col-11,.col-10,.col-9,
+.col-8,.col-7,.col-6,.col-5,
+.col-4,.col-3,.col-2,.col-1{
+	float: left;
+}
+
+
+.col-12{
+	width: 100%;
+}
+.col-11{
+	width: 91.666667%;
+}
+.col-10{
+	width: 83.33333%;
+} 
+.col-9{
+	width: 75%;
+} 
+.col-8{
+	width: 66.666667%;
+} 
+.col-7{
+	width: 58.33333%;
+} 
+.col-6{
+	width: 50%;
+} 
+.col-5{
+	width: 41.666667%;
+} 
+.col-4{
+	width: 33.33333%;
+} 
+.col-3{
+	width: 25%;
+} 
+.col-2{
+	width: 16.666667%;
+} 
+.col-1{
+	width: 8.33333%;
+} 
+
+/* Fikut Ektra  */
+.inner-col{
+	margin: 0px 2%;
+}
+
+/*-----------------------------*/
+/*---- Sistem push Element -----*/
+/*-----------------------------*/
+
+/* karna col 12 itu percuma di dorong karna gk ada apa apanya  */
+/* .col-push-12{
+	margin-left: 100%;
+} */
+.col-push-11{
+	margin-left: 91.666667%;
+}
+.col-push-10{
+	margin-left: 83.33333%;
+} 
+.col-push-9{
+	margin-left: 75%;
+} 
+.col-push-8{
+	margin-left: 66.666667%;
+} 
+.col-push-7{
+	margin-left: 58.33333%;
+} 
+.col-push-6{
+	margin-left: 50%;
+} 
+.col-push-5{
+	margin-left: 41.666667%;
+} 
+.col-push-4{
+	margin-left: 33.33333%;
+} 
+.col-push-3{
+	margin-left: 25%;
+} 
+.col-push-2{
+	margin-left: 16.666667%;
+} 
+.col-push-1{
+	margin-left: 8.33333%;
+} 
+
+
+/*-----------------------------*/
+/*---- Tablet: Smaller 1024px---
+	ket : lebih kecil dari 1024px*/
+/*-----------------------------*/
+
+
+@media (max-width: 1024px){
+
+	.clear-m-push{
+		margin-left: 0px;
+	}
+
+	.col-m-12{
+		width: 100%;
+	}
+	.col-m-11{
+		width: 91.666667%;
+	}
+	.col-m-10{
+		width: 83.33333%;
+	} 
+	.col-m-9{
+		width: 75%;
+	} 
+	.col-m-8{
+		width: 66.666667%;
+	} 
+	.col-m-7{
+		width: 58.33333%;
+	} 
+	.col-m-6{
+		width: 50%;
+	} 
+	.col-m-5{
+		width: 41.666667%;
+	} 
+	.col-m-4{
+		width: 33.33333%;
+	} 
+	.col-m-3{
+		width: 25%;
+	} 
+	.col-m-2{
+		width: 16.666667%;
+	} 
+	.col-m-1{
+		width: 8.33333%;
+	} 
+
+}
+
+
+
+/*-----------------------------*/
+/*---- SmartPhone: Smaller 760px---
+	ket : lebih kecil dari 760px*/
+/*-----------------------------*/
+
+
+@media (max-width: 760px){
+
+	.clear-s-push{
+		margin-left: 0px;
+	}
+
+	.col-xs-12{
+		width: 100%;
+	}
+	.col-xs-11{
+		width: 91.666667%;
+	}
+	.col-xs-10{
+		width: 83.33333%;
+	} 
+	.col-xs-9{
+		width: 75%;
+	} 
+	.col-xs-8{
+		width: 66.666667%;
+	} 
+	.col-xs-7{
+		width: 58.33333%;
+	} 
+	.col-xs-6{
+		width: 50%;
+	} 
+	.col-xs-5{
+		width: 41.666667%;
+	} 
+	.col-xs-4{
+		width: 33.33333%;
+	} 
+	.col-xs-3{
+		width: 25%;
+	} 
+	.col-xs-2{
+		width: 16.666667%;
+	} 
+	.col-xs-1{
+		width: 8.33333%;
+	} 
+
+}
+
+
+
+/*-----------------------------*/
+/*---- SmartPhone XS: Smaller 500px---
+	ket : lebih kecil dari 500px*/
+/*-----------------------------*/
+
+
+@media (max-width: 500px){
+
+	.clear-xs-push{
+		margin-left: 0px;
+	}
+
+	.col-xs-12{
+		width: 100%;
+	}
+	.col-xs-11{
+		width: 91.666667%;
+	}
+	.col-xs-10{
+		width: 83.33333%;
+	} 
+	.col-xs-9{
+		width: 75%;
+	} 
+	.col-xs-8{
+		width: 66.666667%;
+	} 
+	.col-xs-7{
+		width: 58.33333%;
+	} 
+	.col-xs-6{
+		width: 50%;
+	} 
+	.col-xs-5{
+		width: 41.666667%;
+	} 
+	.col-xs-4{
+		width: 33.33333%;
+	} 
+	.col-xs-3{
+		width: 25%;
+	} 
+	.col-xs-2{
+		width: 16.666667%;
+	} 
+	.col-xs-1{
+		width: 8.33333%;
+	} 
+
+}
+
+
+
+
+
